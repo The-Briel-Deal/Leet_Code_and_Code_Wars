@@ -1,3 +1,7 @@
+/*
+I learned to append to lists in JS you use the .push method
+*/
+
 function divisors(integer) {
     var lst = Array();
     for (index = 2; index < integer; index++) {
