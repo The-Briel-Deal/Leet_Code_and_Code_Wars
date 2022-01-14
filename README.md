@@ -13,3 +13,5 @@ And I learned about prototype functions and that it is not a thing in python.
 ## Second one: Find the divisors, return every number that the number is evenly divisable by if none return prime
 
 I learned to append to lists in JS you use the .push method
+
+## Third one: Find the divisors, return every number that the number is evenly divisable by if none return prime
