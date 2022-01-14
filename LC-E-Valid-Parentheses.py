@@ -37,18 +37,16 @@ class Solution:
         map = {")": "(", "}": "{", "]": "["}
         queue = list(s)
         stack = []
-        if queue[0] in ["}", ")", "]"]:
-            return False
         for current in queue:
             if current in ["(", "[", "{"]:
                 stack.append(current)
             elif stack != []:
                 if map[current] != stack.pop():
                     return False
-        if len(s) < 2 or stack != []:
+            else:
+                return False
+        if stack != []:
             return False
-        print(queue)
-        print(stack)
         return True
 
 
