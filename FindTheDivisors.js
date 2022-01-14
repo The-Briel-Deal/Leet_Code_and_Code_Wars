@@ -19,5 +19,4 @@ function divisors(integer) {
     }
 };
 console.log(divisors(27));
-
 // It passed!!!!
